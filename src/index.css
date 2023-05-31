@@ -1,0 +1,128 @@
+/** 
+* @author: Jenil Narola
+**/
+
+body {
+    background-color: #21232A;
+    color: #61DBFB;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 50px 0 50px;
+}
+
+button {
+    background-color: #21232A;
+    border: 2px solid #c8f1fc;
+    color: #61DBFB;
+    font-size: 1.3rem;
+    height: 50px;
+    margin-right: 15px;
+    width: auto;
+}
+
+button:hover {
+    background-color: #61DBFB;
+    border-color: black;
+    color: #21232A;
+}
+
+.card {
+    align-self: center;
+    border: 2px solid grey;
+    border-radius: 6px;
+    height: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+}
+
+.card img {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+input {
+    color: rgb(92, 92, 92);
+    font-size: 1.2rem;
+    width: 70%;
+    /* put search bar center */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 2px solid #c8f1fc;
+    height: 1.5em;
+    padding-left: 15px;
+}
+
+/* css for round button  */
+
+.gif_button {
+    background-color: #21232A;
+    border: 2px solid #c8f1fc;
+    border-radius: 25px;
+    color: #61DBFB;
+    font-size: 1.3rem;
+    height: 50px;
+    margin-right: 15px;
+    width:70%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.gif_button_submit{
+
+    background-color: #61DBFB;
+    border: 2px solid #c8f1fc;
+    border-radius: 25px;
+    color: black;
+    font-size: 1.3rem;
+    height: 50px;
+    margin-right: 15px;
+    width:20%;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+.row_center{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gif_button_saved {
+    background-color: #61DBFB;
+    border: 2px solid #c8f1fc;
+    border-radius: 25px;
+    color: black;
+    font-size: 1.3rem;
+    height: 50px;
+    margin-right: 15px;
+    width:85%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.gif_title{
+    color: #61DBFB;
+    min-height: 3.5em;
+    max-height: 3.5em;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
+}
